@@ -77,9 +77,15 @@ for(let i=0; i<oneResipe.ingredients.length; i++){
 }
 
 let arr=["carrot","broccoli"," asparagus","cauliflower","corn"," cucumber","green pepper","lettuce","mushrooms","onion","potato",
-"pumpkin","red pepper","tomato","beetroot","brussel sprouts","peas","zucchini","sweet potato","radish","artichoke","leek"];
+"pumpkin","red pepper","tomato","beetroot","brussel sprouts","peas","zucchini","sweet potato","radish","artichoke","leek",
+"cabbage","celery","chili","garlic","basil","coriander","parsley","dill","rosemary","oregano","cinnamon","saffron","green bean",
+"bean","chickpea","lentil","apple","apricot","avocado","banana","blackberry","blackcurrant","blueberry","boysenberry",
+ "cherry","coconut","fig","grape","grapefruit","kiwifruit","lemon","lime","lychee","mandarin","mango","melon","nectarine",
+ "orange","papaya","passion fruit","peach","pear","pineapple","plum","pomegranate","quince","raspberry","strawberry"
+];
 
 function search(word){
+    
     let para="";
     for(let i=0; i<arr.length; i++){
         if(arr[i].includes(word)&&word!=""){
@@ -103,7 +109,10 @@ input1.addEventListener("keyup",function(){
     if(input1.value==""){
         error.classList.add("d-none");
     }
+    // var inputWord=input1.value.lowerCase;
     search(input1.value);
+
+
 })
 
 

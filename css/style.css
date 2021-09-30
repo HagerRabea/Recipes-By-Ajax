@@ -1,15 +1,20 @@
 body{
     background-color: #ffcc99;  
 }
-.search ul{
+/* .search ul{
    height: 50% !important;
 
-}
+} */
 .search li{
    background-color: white !important;
 }
 .search li:hover{
     background-color: #ffcc99 !important
+}
+.search{
+    height: 150px !important;
+    /* background-color: #ff7b00 !important; */
+    overflow-y: auto !important;
 }
 ul a{
     color: white;
@@ -33,7 +38,7 @@ ul a{
      color:#b83d00 !important;
  }
 .section1{
-  height: 50vh !important;
+  height: 60vh !important;
   background-image: url(../images/89720c5adc25a7a0df7cc6d961181972.jpg);
   background-position: bottom;
   background-size:cover;
@@ -67,3 +72,4 @@ ul{
 li{
     list-style: none;
 }
+
