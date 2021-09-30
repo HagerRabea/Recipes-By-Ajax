@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Document</title>
+  </head>
+
+<body>
+
+  <section class="container-fluid vh-100 bg-danger text-center section1 overflow-auto">
+  <nav class="navbar navbar-expand-lg navbar-light   naving justify-content-around fixed-top w-100">
+    <div class="container logo-div">
+      <img src="images/fl-header-logo.png" class="logo">
+      <a class="navbar-brand logo-img" >Recipes</a>
+      <button class="navbar-toggler text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-50  d-flex flex-row justify-content-lg-around me-5">
+          <li class="nav-item">
+            <a class="nav-link active fs-7 text-dark " aria-current="page" >pizza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" >pasta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" >salad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" >cake</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link text-dark" >cake</a>
+            <button class="btn btn-warning" id="getMore">Get More</button>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link text-dark" >popcorn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" >mango</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link text-dark" >carrot</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" >chicken</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- <div id="single"></div> -->
+
+
+
+
+
+  
+<h1 class="">Welcome In Foot Website</h1>
+<p class="text-white">For Delicious and delicious recipes</p>
+<div class="m-auto w-50">
+  <input class="form-control w-100 mt-5" type="text" placeholder="Search For More Recipes" id="input1"> 
+  <div class="w-100 mt-1 error d-none " id="error">Please Enter The Correct Name Of The Recipe</div>
+  <div class="w-50 search" >
+    <ul id="searchWords" class="text-start" ></ul>
+  </div>
+</div>
+</section>
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" >
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="model">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section class="container-fluid mt-2">
+
+<div class="row" id="data">
+
+</div>
+
+
+
+</section>
+
+   
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
